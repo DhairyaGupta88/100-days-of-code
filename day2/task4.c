@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main()
 { 
+ float Radius,Area,Circumference; 
  //using float datatype for more precision
  // Input radius of circle from user
   printf("Enter the Radius \n");
