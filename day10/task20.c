@@ -2,14 +2,15 @@
 #include <stdio.h>
 int main()
 {
-    int day;
+    usigned int day;
+    // enter the days
     printf("Enter the (1-7)days of the week\n");
     scanf("%d", &day);
-    switch (day)
+    switch (day)//switch is useful when you have to compare one variable with many constant values (like day numbers).
     {
     case 1:
         printf("the day is monday\n");
-        break;
+        break; //Without break;, the program would “fall through” and continue executing the next cases.
     case 2:
         printf("The day is tuesday\n");
         break;
